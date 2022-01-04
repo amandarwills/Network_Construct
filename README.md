@@ -1,11 +1,11 @@
 # Network_Construct
 Scripts for constructing gene and metabolite networks.
 
-differentially_accumulated_metabolites R script to identify metabolites that are differentially accumulated at a specific timepoint between two conditions.
+metabolite_filter script to filter aligned peak lists from El Maven based on "good peak count" and peak quality scores.
 
-dynamic_network_edge_select Jupyter notebook that allows the user to select which edge types to remove from the network before replotting the network as an interactive HTML file. This is useful for removing edges that represent common metabolites (e.g. ATP) that join a large number of nodes into a big group (that is not very informative given how common the metabolite is in most reactions in the cell).
+DAM (differentially accumulated metabolites) R script to identify metabolites that are differentially accumulated at a specific timepoint between two conditions.
 
-gene_co-expression_network Construct gene co-expression network
+gene_co-expression_network construct gene co-expression network
 
 metabolite_co-expression_network Construct metabolite co-expression network
 
